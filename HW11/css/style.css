@@ -1,0 +1,82 @@
+﻿body {
+    background-color: #2d312e;
+}
+#Meanbox {
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+    border: 5px solid red;
+    background-color: #747b75;
+}
+#Inputdiv{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    
+}
+.inputstyle{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+}
+#Radiobox{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+.Celsiusbox{
+    margin-top:40px;
+    margin-left:30%;
+
+
+}
+.Fahrenheitbox{
+   margin-top: 5px;
+   margin-left:30%;
+}
+#ClearBttn {
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color:lightseagreen;
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+}
+#result{
+    border: 5px solid #ff0045;
+    text-align: center;
+    height: 50px;
+    font-size: 26px;
+    border-radius:10%;
+    background-color:gainsboro;
+    margin-top:25px;
+    color: rgba(255, 0, 0, 0.74);
+}
+#calcuate {
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+}
+#GoodByeMsg{
+    border: 5px solid yellow;
+    text-align:center;
+    font-size: 40px;
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    display:none;
+    color: white;
+    margin-top: 150px;
+}
+#ExitBttn {
+    background-color: lightseagreen;
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+}

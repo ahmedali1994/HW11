@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="Meanbox">
+        <div id="Inputdiv">
+            <label class="inputstyle">Temperature: </label>
+            <input id="tempData" class="inputstyle" type="text" />
+            <div id="Radiobox">
+                <input id="Celsius" name="Temperature" value="Celsius" type="radio" class="Celsiusbox"  />
+                <label for="Celsius">Fahrenheit to Celsius</label><br />
+
+                <input id="Fahrenheit" name="Temperature" value="Fahrenheit" type="radio" class="Fahrenheitbox"  />
+                <label for="Fahrenheit">Celsius to Fahrenheit</label><br />
+
+                <button id="calcuate" onclick="GetSelection()"> Calcuate</button><br />
+
+                <button id="ClearBttn" onclick="clearSelection()">Try again</button>
+                &nbsp;
+                <button id="ExitBttn">Exit</button>
+
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <p id="GoodByeMsg">GOOD BYE</p>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
